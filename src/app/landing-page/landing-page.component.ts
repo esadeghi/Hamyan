@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { HeroComponent } from '../hero/hero.component';
+import { PricingComponent } from '../pricing/pricing.component';
 
 @Component({
   selector: 'app-landing-page',
   standalone: true,
-  imports: [CommonModule, TranslateModule, HeroComponent],
+  imports: [CommonModule, TranslateModule, HeroComponent, PricingComponent],
   templateUrl: './landing-page.component.html',
   styleUrls: ['./landing-page.component.css']
 })
