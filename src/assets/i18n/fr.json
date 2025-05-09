@@ -1,0 +1,27 @@
+{
+    "HERO": {
+      "TITLE": "Hamyan - Votre Meilleur Partenaire Financier",
+      "SUBTITLE": "Un outil pour une gestion financière meilleure, plus rapide et plus intelligente",
+      "BUTTON": "Commencer"
+    },
+    "PRICING": {
+      "TITLE": "Plans Tarifs",
+      "BASIC": { "NAME": "Basique", "DESCRIPTION": "Parfait pour commencer" },
+      "PRO": { "NAME": "Professionnel", "DESCRIPTION": "Idéal pour les professionnels" },
+      "ENTERPRISE": { "NAME": "Entreprise", "DESCRIPTION": "Le meilleur pour les équipes" },
+      "FEATURE_1": "Capacités de gestion budgétaire",
+      "FEATURE_2": "Rapports financiers détaillés",
+      "FEATURE_3": "Support rapide",
+      "BUTTON": "Acheter"
+    },
+    "TESTIMONIALS": {
+      "TITLE": "Témoignages des Utilisateurs",
+      "REVIEW_1": "Excellent! Une expérience incroyable.",
+      "REVIEW_2": "Très pratique et facile à utiliser!",
+      "REVIEW_3": "Sans doute le meilleur choix pour la gestion financière."
+    },
+    "FOOTER": {
+      "COPYRIGHT": "Tous droits réservés."
+    }
+  }
+  
