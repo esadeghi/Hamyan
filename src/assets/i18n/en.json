@@ -1,9 +1,26 @@
 {
-    "landing": {
-      "title": "Welcome to Hamyan",
-      "description": "Manage your finances like a pro with Hamyan.",
-      "cta_primary": "Get Started",
-      "cta_secondary": "Learn More"
-    }
+  "HERO": {
+    "TITLE": "Hamyan - Your Best Financial Partner",
+    "SUBTITLE": "A tool for better, faster, and smarter financial management",
+    "BUTTON": "Get Started"
+  },
+  "PRICING": {
+    "TITLE": "Pricing Plans",
+    "BASIC": { "NAME": "Basic", "DESCRIPTION": "Great for getting started" },
+    "PRO": { "NAME": "Pro", "DESCRIPTION": "Perfect for professionals" },
+    "ENTERPRISE": { "NAME": "Enterprise", "DESCRIPTION": "Best for teams" },
+    "FEATURE_1": "Budget management capabilities",
+    "FEATURE_2": "Detailed financial reports",
+    "FEATURE_3": "Fast support",
+    "BUTTON": "Buy Now"
+  },
+  "TESTIMONIALS": {
+    "TITLE": "User Testimonials",
+    "REVIEW_1": "Excellent! An amazing experience.",
+    "REVIEW_2": "Very convenient and easy to use!",
+    "REVIEW_3": "Definitely the best choice for financial management."
+  },
+  "FOOTER": {
+    "COPYRIGHT": "All rights reserved."
   }
-  
+}
