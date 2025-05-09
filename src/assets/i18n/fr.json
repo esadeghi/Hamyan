@@ -1,8 +1,9 @@
 {
-    "HERO": {
-      "TITLE": "Hamyan - Votre Meilleur Partenaire Financier",
-      "SUBTITLE": "Un outil pour une gestion financière meilleure, plus rapide et plus intelligente",
-      "BUTTON": "Commencer"
+    "hero": {
+      "title": "Bienvenue chez Hamyan",
+      "description": "Gérez vos finances comme un pro avec Hamyan.",
+      "cta_primary": "Commencer",
+      "cta_secondary": "En savoir plus"
     },
     "PRICING": {
       "TITLE": "Plans Tarifs",
