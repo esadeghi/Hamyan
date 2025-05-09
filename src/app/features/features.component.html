@@ -1,0 +1,11 @@
+<!-- features.component.html -->
+<section class="py-20 bg-gray-50">
+    <h2 class="text-4xl font-bold text-center mb-10">{{ 'FEATURES.TITLE' | translate }}</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div *ngFor="let feature of [1, 2, 3, 4, 5, 6]" class="rounded-2xl shadow-md p-8 bg-white text-center">
+        <div class="text-blue-500 mb-4 text-5xl">🚀</div>
+        <h3 class="text-2xl font-semibold mb-2">{{ 'FEATURES.FEATURE_' + feature + '.TITLE' | translate }}</h3>
+        <p class="text-gray-600">{{ 'FEATURES.FEATURE_' + feature + '.DESCRIPTION' | translate }}</p>
+      </div>
+    </div>
+  </section>
