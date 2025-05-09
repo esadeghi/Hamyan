@@ -1,11 +1,25 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-landing-page',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule, TranslateModule],
   templateUrl: './landing-page.component.html',
-  styleUrl: './landing-page.component.css'
+  styleUrls: ['./landing-page.component.css']
 })
 export class LandingPageComponent {
+  languages = ['fa', 'en', 'fr'];
+  currentLang = 'en';
+  langLabels = { fa: 'فارسی', en: 'English', fr: 'Français' };
 
+  constructor(private translate: TranslateService) {
+    this.setLanguage(this.currentLang);
+  }
+
+  setLanguage(lang: string) {
+    this.currentLang = lang;
+    this.translate.use(lang);
+  }
 }
