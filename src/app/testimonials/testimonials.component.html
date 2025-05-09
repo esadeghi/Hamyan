@@ -1,0 +1,9 @@
+<!-- testimonials.component.html -->
+<section class="py-20 bg-gray-100">
+    <h2 class="text-4xl font-bold text-center mb-10">{{ 'TESTIMONIALS.TITLE' | translate }}</h2>
+    <div class="max-w-3xl mx-auto grid grid-cols-1 gap-6">
+      <div *ngFor="let review of [1, 2, 3]" class="rounded-2xl shadow-md p-6">
+        <p class="text-gray-700">{{ 'TESTIMONIALS.REVIEW_' + review | translate }}</p>
+      </div>
+    </div>
+  </section>
