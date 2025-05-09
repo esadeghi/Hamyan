@@ -15,6 +15,15 @@
       "FEATURE_3": "Support rapide",
       "BUTTON": "Acheter"
     },
+    "FEATURES": {
+    "TITLE": "Fonctionnalités Clés",
+    "FEATURE_1": { "TITLE": "Haute Sécurité", "DESCRIPTION": "Protégez vos données financières avec des protocoles avancés" },
+    "FEATURE_2": { "TITLE": "Rapports Détaillés", "DESCRIPTION": "Analysez les transactions et les dépenses avec précision" },
+    "FEATURE_3": { "TITLE": "Interface Simple", "DESCRIPTION": "Facile à utiliser pour tous" },
+    "FEATURE_4": { "TITLE": "Support Rapide", "DESCRIPTION": "Accédez à notre équipe de support à tout moment" },
+    "FEATURE_5": { "TITLE": "Gestion Multi-Comptes", "DESCRIPTION": "Gérez plusieurs comptes sans effort" },
+    "FEATURE_6": { "TITLE": "Coûts Réduits", "DESCRIPTION": "Économisez sur les frais de gestion financière" }
+  },
     "TESTIMONIALS": {
       "TITLE": "Témoignages des Utilisateurs",
       "REVIEW_1": "Excellent! Une expérience incroyable.",
