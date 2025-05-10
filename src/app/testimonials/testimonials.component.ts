@@ -6,7 +6,7 @@ import { TranslateModule } from '@ngx-translate/core';
   selector: 'app-testimonials',
   imports: [CommonModule, TranslateModule],
   templateUrl: './testimonials.component.html',
-  styleUrl: './testimonials.component.css'
+  styleUrls: ['./testimonials.component.css']
 })
 export class TestimonialsComponent {
 

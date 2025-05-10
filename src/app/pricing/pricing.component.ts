@@ -6,7 +6,7 @@ import { TranslateModule } from '@ngx-translate/core';
   selector: 'app-pricing',
   imports: [CommonModule, TranslateModule],
   templateUrl: './pricing.component.html',
-  styleUrl: './pricing.component.css'
+  styleUrls: ['./pricing.component.css']
 })
 export class PricingComponent {
 
