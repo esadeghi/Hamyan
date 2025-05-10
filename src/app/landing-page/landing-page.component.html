@@ -1,0 +1,12 @@
+
+  <!-- landing-page.component.html -->
+<div class="language-selector bg-gray-100 py-4 text-center">
+  <button *ngFor="let lang of languages" (click)="setLanguage(lang)" [class.bg-blue-500]="currentLang === lang" class="text-white py-2 px-4 mx-2 rounded-lg">
+    {{ langLabels[lang] }}
+  </button>
+</div>
+<app-hero></app-hero>
+<app-features></app-features>
+<app-testimonials></app-testimonials>
+<app-pricing></app-pricing>
+<app-footer></app-footer>
