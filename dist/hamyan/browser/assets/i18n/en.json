@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "title": "Welcome to Hamyan",
+    "description": "Manage your finances like a pro with Hamyan.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "Learn More"
+  },
+  "PRICING": {
+    "TITLE": "Pricing Plans",
+    "BASIC": { "NAME": "Basic", "DESCRIPTION": "Great for getting started" },
+    "PRO": { "NAME": "Pro", "DESCRIPTION": "Perfect for professionals" },
+    "ENTERPRISE": { "NAME": "Enterprise", "DESCRIPTION": "Best for teams" },
+    "FEATURE_1": "Budget management capabilities",
+    "FEATURE_2": "Detailed financial reports",
+    "FEATURE_3": "Fast support",
+    "BUTTON": "Buy Now"
+  },
+  "FEATURES": {
+    "TITLE": "Key Features",
+    "FEATURE_1": { "TITLE": "High Security", "DESCRIPTION": "Protect your financial data with advanced protocols" },
+    "FEATURE_2": { "TITLE": "Detailed Reports", "DESCRIPTION": "Analyze transactions and expenses with precision" },
+    "FEATURE_3": { "TITLE": "Simple Interface", "DESCRIPTION": "Easy to use for everyone" },
+    "FEATURE_4": { "TITLE": "Fast Support", "DESCRIPTION": "Access our support team anytime" },
+    "FEATURE_5": { "TITLE": "Multi-Account Management", "DESCRIPTION": "Manage multiple accounts effortlessly" },
+    "FEATURE_6": { "TITLE": "Lower Costs", "DESCRIPTION": "Save on financial management expenses" }
+  },
+  "TESTIMONIALS": {
+    "TITLE": "User Testimonials",
+    "REVIEW_1": "Excellent! An amazing experience.",
+    "REVIEW_2": "Very convenient and easy to use!",
+    "REVIEW_3": "Definitely the best choice for financial management."
+  },
+  "FOOTER": {
+    "COPYRIGHT": "All rights reserved."
+  }
+}
