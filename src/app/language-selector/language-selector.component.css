@@ -1,0 +1,10 @@
+.language-selector a {
+  color: #333;
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
+}
+.language-selector a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
