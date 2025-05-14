@@ -7,7 +7,7 @@
         [class.text-white]="activeTab === 'login'"
         class="flex-1 p-3 text-center rounded-l-lg border border-gray-300 transition"
       >
-        Login
+        {{ "login.title" | translate }}
       </button>
       <button
         (click)="setActiveTab('register')"
@@ -15,7 +15,7 @@
         [class.text-white]="activeTab === 'register'"
         class="flex-1 p-3 text-center rounded-r-lg border border-gray-300 transition"
       >
-        Register
+        {{ "register.title" | translate }}
       </button>
     </div>
 
@@ -25,32 +25,32 @@
       (ngSubmit)="onSubmitLogin()"
     >
       <div class="mb-4">
-        <label>Email</label>
+        <label>{{ "login.email" | translate }}</label>
         <input
           formControlName="email"
           type="email"
           class="w-full p-3 border rounded-lg"
-          placeholder="Enter your email"
+          [placeholder]="'login.placeholder_email' | translate"
         />
       </div>
       <div class="mb-4">
-        <label>Password</label>
+        <label>{{ "login.password" | translate }}</label>
         <input
           formControlName="password"
           type="password"
           class="w-full p-3 border rounded-lg"
-          placeholder="Enter your password"
+          [placeholder]="'login.placeholder_password' | translate"
         />
       </div>
       <div class="flex items-center mb-6">
         <input formControlName="rememberMe" type="checkbox" class="mr-2" />
-        <label>Remember Me</label>
+        <label>{{ "login.remember_me" | translate }}</label>
       </div>
       <button
         type="submit"
         class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700"
       >
-        Login
+        {{ "login.button_login" | translate }}
       </button>
     </form>
 
@@ -60,63 +60,63 @@
       (ngSubmit)="onSubmitRegister()"
     >
       <div class="mb-4">
-        <label>First Name</label>
+        <label>{{ "register.first_name" | translate }}</label>
         <input
           formControlName="firstName"
           type="text"
           class="w-full p-3 border rounded-lg"
-          placeholder="Enter your first name"
+          [placeholder]="'register.placeholder_first_name' | translate"
         />
       </div>
       <div class="mb-4">
-        <label>Last Name</label>
+        <label>{{ "register.last_name" | translate }}</label>
         <input
           formControlName="lastName"
           type="text"
           class="w-full p-3 border rounded-lg"
-          placeholder="Enter your last name"
+          [placeholder]="'register.placeholder_last_name' | translate"
         />
       </div>
       <div class="mb-4">
-        <label>Email</label>
+        <label>{{ "register.email" | translate }}</label>
         <input
           formControlName="email"
           type="email"
           class="w-full p-3 border rounded-lg"
-          placeholder="Enter your email"
+          [placeholder]="'register.placeholder_email' | translate"
         />
       </div>
       <div class="mb-4">
-        <label>Password</label>
+        <label>{{ "register.password" | translate }}</label>
         <input
           formControlName="password"
           type="password"
           class="w-full p-3 border rounded-lg"
-          placeholder="Enter your password"
+          [placeholder]="'register.placeholder_password' | translate"
         />
       </div>
       <div class="mb-4">
-        <label>Phone Number</label>
+        <label>{{ "register.phone" | translate }}</label>
         <input
           formControlName="phone"
           type="tel"
           class="w-full p-3 border rounded-lg"
-          placeholder="Enter your phone number"
+          [placeholder]="'register.placeholder_phone' | translate"
         />
       </div>
       <div class="mb-6">
-        <label>Purpose of Use</label>
+        <label>{{ "register.purpose" | translate }}</label>
         <textarea
           formControlName="purpose"
           class="w-full p-3 border rounded-lg"
-          placeholder="Why do you want to use Hamyan?"
+          [placeholder]="'register.placeholder_purpose' | translate"
         ></textarea>
       </div>
       <button
         type="submit"
         class="w-full bg-green-600 text-white p-3 rounded-lg hover:bg-green-700"
       >
-        Register
+        {{ "register.button_register" | translate }}
       </button>
     </form>
   </div>

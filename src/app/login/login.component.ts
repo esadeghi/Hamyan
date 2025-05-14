@@ -9,11 +9,13 @@ import {
 import { Router, RouterModule } from '@angular/router';
 import { AuthService } from '../services/login/auth.service';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
+import { TabService } from '../services/tab.service';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, RouterModule],
+  imports: [CommonModule, ReactiveFormsModule, RouterModule, TranslateModule],
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css'],
 })
@@ -24,7 +26,7 @@ export class LoginComponent {
   private authService = inject(AuthService);
   private router = inject(Router);
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private tabService: TabService) {
     this.loginForm = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       password: ['', Validators.required],
@@ -39,6 +41,7 @@ export class LoginComponent {
       phone: ['', Validators.required],
       purpose: ['', Validators.required],
     });
+    this.tabService.tab$.subscribe((tab) => (this.activeTab = tab));
   }
 
   onSubmitLogin() {
