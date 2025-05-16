@@ -17,12 +17,30 @@
   },
   "FEATURES": {
     "TITLE": "Key Features",
-    "FEATURE_1": { "TITLE": "High Security", "DESCRIPTION": "Protect your financial data with advanced protocols" },
-    "FEATURE_2": { "TITLE": "Detailed Reports", "DESCRIPTION": "Analyze transactions and expenses with precision" },
-    "FEATURE_3": { "TITLE": "Simple Interface", "DESCRIPTION": "Easy to use for everyone" },
-    "FEATURE_4": { "TITLE": "Fast Support", "DESCRIPTION": "Access our support team anytime" },
-    "FEATURE_5": { "TITLE": "Multi-Account Management", "DESCRIPTION": "Manage multiple accounts effortlessly" },
-    "FEATURE_6": { "TITLE": "Lower Costs", "DESCRIPTION": "Save on financial management expenses" }
+    "FEATURE_1": {
+      "TITLE": "High Security",
+      "DESCRIPTION": "Protect your financial data with advanced protocols"
+    },
+    "FEATURE_2": {
+      "TITLE": "Detailed Reports",
+      "DESCRIPTION": "Analyze transactions and expenses with precision"
+    },
+    "FEATURE_3": {
+      "TITLE": "Simple Interface",
+      "DESCRIPTION": "Easy to use for everyone"
+    },
+    "FEATURE_4": {
+      "TITLE": "Fast Support",
+      "DESCRIPTION": "Access our support team anytime"
+    },
+    "FEATURE_5": {
+      "TITLE": "Multi-Account Management",
+      "DESCRIPTION": "Manage multiple accounts effortlessly"
+    },
+    "FEATURE_6": {
+      "TITLE": "Lower Costs",
+      "DESCRIPTION": "Save on financial management expenses"
+    }
   },
   "TESTIMONIALS": {
     "TITLE": "User Testimonials",
@@ -32,5 +50,33 @@
   },
   "FOOTER": {
     "COPYRIGHT": "All rights reserved."
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "remember_me": "Remember Me",
+    "button_login": "Login",
+    "no_account": "Don't have an account? Register here",
+    "forgot_password": "Forgot Password?",
+    "placeholder_email": "Enter your email",
+    "placeholder_password": "Enter your password"
+  },
+  "register": {
+    "title": "Register",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone Number",
+    "purpose": "Purpose of Using Hamyan",
+    "button_register": "Register",
+    "have_account": "Already have an account? Login here",
+    "placeholder_first_name": "Enter your first name",
+    "placeholder_last_name": "Enter your last name",
+    "placeholder_email": "Enter your email",
+    "placeholder_password": "Enter your password",
+    "placeholder_phone": "Enter your phone number",
+    "placeholder_purpose": "What is your purpose of using Hamyan?"
   }
 }

@@ -1,37 +1,88 @@
 {
-    "hero": {
-      "title": "Bienvenue chez Hamyan",
-      "description": "Gérez vos finances comme un pro avec Hamyan.",
-      "cta_primary": "Commencer",
-      "cta_secondary": "En savoir plus"
-    },
-    "PRICING": {
-      "TITLE": "Plans Tarifs",
-      "BASIC": { "NAME": "Basique", "DESCRIPTION": "Parfait pour commencer" },
-      "PRO": { "NAME": "Professionnel", "DESCRIPTION": "Idéal pour les professionnels" },
-      "ENTERPRISE": { "NAME": "Entreprise", "DESCRIPTION": "Le meilleur pour les équipes" },
-      "FEATURE_1": "Capacités de gestion budgétaire",
-      "FEATURE_2": "Rapports financiers détaillés",
-      "FEATURE_3": "Support rapide",
-      "BUTTON": "Acheter"
-    },
-    "FEATURES": {
-    "TITLE": "Fonctionnalités Clés",
-    "FEATURE_1": { "TITLE": "Haute Sécurité", "DESCRIPTION": "Protégez vos données financières avec des protocoles avancés" },
-    "FEATURE_2": { "TITLE": "Rapports Détaillés", "DESCRIPTION": "Analysez les transactions et les dépenses avec précision" },
-    "FEATURE_3": { "TITLE": "Interface Simple", "DESCRIPTION": "Facile à utiliser pour tous" },
-    "FEATURE_4": { "TITLE": "Support Rapide", "DESCRIPTION": "Accédez à notre équipe de support à tout moment" },
-    "FEATURE_5": { "TITLE": "Gestion Multi-Comptes", "DESCRIPTION": "Gérez plusieurs comptes sans effort" },
-    "FEATURE_6": { "TITLE": "Coûts Réduits", "DESCRIPTION": "Économisez sur les frais de gestion financière" }
+  "hero": {
+    "title": "Bienvenue chez Hamyan",
+    "description": "Gérez vos finances comme un pro avec Hamyan.",
+    "cta_primary": "Commencer",
+    "cta_secondary": "En savoir plus"
   },
-    "TESTIMONIALS": {
-      "TITLE": "Témoignages des Utilisateurs",
-      "REVIEW_1": "Excellent! Une expérience incroyable.",
-      "REVIEW_2": "Très pratique et facile à utiliser!",
-      "REVIEW_3": "Sans doute le meilleur choix pour la gestion financière."
+  "PRICING": {
+    "TITLE": "Plans Tarifs",
+    "BASIC": { "NAME": "Basique", "DESCRIPTION": "Parfait pour commencer" },
+    "PRO": {
+      "NAME": "Professionnel",
+      "DESCRIPTION": "Idéal pour les professionnels"
     },
-    "FOOTER": {
-      "COPYRIGHT": "Tous droits réservés."
+    "ENTERPRISE": {
+      "NAME": "Entreprise",
+      "DESCRIPTION": "Le meilleur pour les équipes"
+    },
+    "FEATURE_1": "Capacités de gestion budgétaire",
+    "FEATURE_2": "Rapports financiers détaillés",
+    "FEATURE_3": "Support rapide",
+    "BUTTON": "Acheter"
+  },
+  "FEATURES": {
+    "TITLE": "Fonctionnalités Clés",
+    "FEATURE_1": {
+      "TITLE": "Haute Sécurité",
+      "DESCRIPTION": "Protégez vos données financières avec des protocoles avancés"
+    },
+    "FEATURE_2": {
+      "TITLE": "Rapports Détaillés",
+      "DESCRIPTION": "Analysez les transactions et les dépenses avec précision"
+    },
+    "FEATURE_3": {
+      "TITLE": "Interface Simple",
+      "DESCRIPTION": "Facile à utiliser pour tous"
+    },
+    "FEATURE_4": {
+      "TITLE": "Support Rapide",
+      "DESCRIPTION": "Accédez à notre équipe de support à tout moment"
+    },
+    "FEATURE_5": {
+      "TITLE": "Gestion Multi-Comptes",
+      "DESCRIPTION": "Gérez plusieurs comptes sans effort"
+    },
+    "FEATURE_6": {
+      "TITLE": "Coûts Réduits",
+      "DESCRIPTION": "Économisez sur les frais de gestion financière"
     }
+  },
+  "TESTIMONIALS": {
+    "TITLE": "Témoignages des Utilisateurs",
+    "REVIEW_1": "Excellent! Une expérience incroyable.",
+    "REVIEW_2": "Très pratique et facile à utiliser!",
+    "REVIEW_3": "Sans doute le meilleur choix pour la gestion financière."
+  },
+  "FOOTER": {
+    "COPYRIGHT": "Tous droits réservés."
+  },
+  "login": {
+    "title": "Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "remember_me": "Se souvenir de moi",
+    "button_login": "Connexion",
+    "no_account": "Vous n'avez pas de compte ? Inscrivez-vous ici",
+    "forgot_password": "Mot de passe oublié ?",
+    "placeholder_email": "Entrez votre e-mail",
+    "placeholder_password": "Entrez votre mot de passe"
+  },
+  "register": {
+    "title": "Inscription",
+    "first_name": "Prénom",
+    "last_name": "Nom de famille",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "phone": "Numéro de téléphone",
+    "purpose": "But de l'utilisation de Hamyan",
+    "button_register": "S'inscrire",
+    "have_account": "Vous avez déjà un compte ? Connectez-vous ici",
+    "placeholder_first_name": "Entrez votre prénom",
+    "placeholder_last_name": "Entrez votre nom de famille",
+    "placeholder_email": "Entrez votre e-mail",
+    "placeholder_password": "Entrez votre mot de passe",
+    "placeholder_phone": "Entrez votre numéro de téléphone",
+    "placeholder_purpose": "Quel est votre but d'utiliser Hamyan ?"
   }
-  
+}

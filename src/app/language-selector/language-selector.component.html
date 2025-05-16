@@ -1,0 +1,19 @@
+<div class="language-selector flex gap-4 items-center">
+  <a href="#" (click)="toggleLanguage(); $event.preventDefault()">
+    {{ langLabels[currentLang === "fr" ? "en" : "fr"] }}
+  </a>
+  <a
+    href="#"
+    (click)="changeTab('login'); $event.preventDefault()"
+    class="text-blue-600 hover:underline"
+  >
+    {{ "login.title" | translate }}
+  </a>
+  <a
+    href="#"
+    (click)="changeTab('register'); $event.preventDefault()"
+    class="text-green-600 hover:underline"
+  >
+    {{ "register.title" | translate }}
+  </a>
+</div>

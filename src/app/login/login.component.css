@@ -1,0 +1,10 @@
+/* src/app/components/login/login.component.css */
+button {
+  border: 1px solid #ccc;
+}
+
+button.active {
+  background-color: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
